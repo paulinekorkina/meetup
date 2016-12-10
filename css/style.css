@@ -1,0 +1,120 @@
+html,
+body {
+  min-width: 1366px;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 14px;
+  font-family: "Roboto", "Arial", sans-serif;
+  color: #242424;
+}
+
+div,
+article,
+ul {
+  outline: 1px dashed orangered;
+}
+
+h2,
+h3,
+b,
+p,
+a,
+li {
+  outline: 1px dashed #888888;
+}
+
+.container {
+  width: 1036px;
+  margin: 0 auto;
+  padding: 0 165px;
+}
+
+.main-header {
+  padding-top: 48px;
+  background-color: #4a454b;
+  color: #ffffff;
+}
+
+.main-navigation {
+  margin-bottom: 115px;
+}
+
+.main-menu {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.main-menu li {
+  margin-right: 40px;
+}
+
+.main-menu li:last-child {
+  margin-right: 0;
+  padding-right: 2px;
+}
+
+.main-menu .index-logo {
+  margin-right: auto;
+  width: 230px;
+  height: 62px;
+  padding-left: 5px;
+}
+
+.main-menu .active {
+  padding: 0 5px 5px 5px;
+}
+
+.main-menu a {
+  font-weight: 100;
+  font-size: 15px;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.main-menu a:hover {
+  color: #82b541;
+}
+
+.timer {
+  display: flex;
+  justify-content: space-between;
+  width: 823px;
+  margin: 0 auto;
+  padding: 8px 70px 21px 75px;
+  border: 2px solid #90d23d;
+  border-radius: 20px;
+}
+
+.timer p {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  vertical-align: top;
+}
+
+.timer span {
+  display: block;
+  text-align: center;
+  font-family: "Roboto Slab", "Times", serif;
+}
+
+.timer span[class^="result"] {
+  margin-bottom: 11px;
+  font-weight: 100;
+  font-size: 130px;
+  line-height: 130px;
+}
+
+.timer span[class^="name"] {
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 25px;
+  text-transform: uppercase;
+}
