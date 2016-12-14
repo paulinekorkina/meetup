@@ -26,6 +26,16 @@ li {
   outline: 1px dashed #888888;
 }
 
+h2 {
+  font-weight: 900;
+  font-size: 50px;
+}
+
+h3 {
+  font-weight: 900;
+  font-size: 35px;
+}
+
 .container {
   width: 1036px;
   margin: 0 auto;
@@ -34,9 +44,11 @@ li {
 
 .main-header {
   position: relative;
+  margin-bottom: 37px;
   padding-top: 48px;
   background-color: #4a454b;
   color: #ffffff;
+  overflow: hidden;
 }
 
 .main-header .container {
@@ -152,4 +164,116 @@ li {
   background-color: #ffffff;
   transform: skewY(-5deg);
   outline: 1px dashed skyblue;
+}
+
+.main-container {
+  position: relative;
+}
+
+.register {
+  position: absolute;
+  top: -275px;
+  right: 165px;
+  width: 373px;
+  padding: 28px 30px 21px 28px;
+  background-color: #ffffff;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.65);
+}
+
+.register-title {
+  margin: 0 auto 18px auto;
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+}
+
+.register-form label {
+  display: none;
+}
+
+.register-form input {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  margin-bottom: 19px;
+  padding: 16px 0 14px 13px;
+  font-weight: 300;
+  font-size: 19px;
+  font-family: "Roboto", "Arial", sans-serif;
+  border: 1px solid #bebebe;
+  border-radius: 5px;
+}
+
+.register-form input:hover,
+.register-form input:focus {
+  border-color: #90d23d;
+  outline: none;
+}
+
+.register-form input:last-of-type {
+  margin-bottom: 40px;
+}
+
+.register-form .btn {
+  width: 100%;
+  margin-bottom: 16px;
+  padding: 16px 0 14px 0;
+  font-weight: 700;
+  font-size: 22px;
+  font-family: "Roboto", "Arial", sans-serif;
+  background-color: #90d23d;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+}
+
+.register-deadline {
+  margin: 0;
+  font-weight: 300;
+  font-size: 15px;
+  text-align: center;
+  color: #6c6c6c;
+}
+
+.short-description {
+  margin-right: 503px;
+  margin-bottom: 140px;
+  padding-left: 5px;
+}
+
+.short-description h2 {
+  margin: 0;
+}
+
+.short-description p {
+  font-weight: 300;
+}
+
+.details {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+
+.details-item {
+  flex-basis: 300px;
+  flex-shrink: 1;
+  text-align: center;
+}
+
+.details-item p {
+  font-weight: 300;
+}
+
+.details-item::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+
+.details-item-1::before {
+  background-image: url("../img/details1.png");
 }
