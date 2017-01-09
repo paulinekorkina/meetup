@@ -175,13 +175,13 @@ h3 {
   top: -275px;
   right: 165px;
   width: 373px;
-  padding: 28px 30px 21px 28px;
+  padding: 30px 30px 21px 28px;
   background-color: #ffffff;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.65);
 }
 
 .register-title {
-  margin: 0 auto 18px auto;
+  margin: 0 auto 19px auto;
   font-weight: 700;
   font-size: 30px;
   text-align: center;
@@ -196,7 +196,7 @@ h3 {
   box-sizing: border-box;
   width: 100%;
   margin-bottom: 19px;
-  padding: 16px 0 14px 13px;
+  padding: 17px 0 15px 13px;
   font-weight: 300;
   font-size: 19px;
   font-family: "Roboto", "Arial", sans-serif;
@@ -216,7 +216,7 @@ h3 {
 
 .register-form .btn {
   width: 100%;
-  margin-bottom: 16px;
+  margin-bottom: 20px;
   padding: 16px 0 14px 0;
   font-weight: 700;
   font-size: 22px;
@@ -243,37 +243,96 @@ h3 {
 
 .short-description h2 {
   margin: 0;
+  margin-bottom: 15px;
 }
 
 .short-description p {
+  margin-bottom: 20px;
   font-weight: 300;
 }
 
 .details {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 100px;
+  margin-bottom: 97px;
 }
 
 .details-item {
-  flex-basis: 300px;
+  flex-basis: 304px;
   flex-shrink: 1;
   text-align: center;
 }
 
 .details-item p {
+  margin: 0;
   font-weight: 300;
+}
+
+.details-item h3 {
+  margin-bottom: 20px;
 }
 
 .details-item::before {
   content: "";
   display: block;
   width: 100%;
-  height: 100%;
+  height: 212px;
   background-repeat: no-repeat;
   background-position: 50%;
 }
 
 .details-item-1::before {
   background-image: url("../img/details1.png");
+}
+
+.details-item-2::before {
+  background-image: url("../img/details2.png");
+}
+
+.details-item-3::before {
+  background-image: url("../img/details3.png");
+}
+
+.schedule {
+  padding-left: 5px;
+}
+
+.schedule-table {
+  width: 100%;
+  font-weight: 400;
+  font-size: 22px;
+  color: #ffffff;
+  border-collapse: collapse;
+  border-radius: 15px; /*не скругляются углы, т.к. ячейки имеют углы обычные*/
+}
+
+.schedule-table th {
+  padding: 22px 0 21px 0;
+  font-weight: 900;
+  font-size: 30px;
+  background-color: #a3cc40;
+}
+
+.schedule-table td {
+  padding: 25px 0 25px 0;
+}
+
+.schedule-table tr:nth-child(2n) {
+  background-color: #373737;
+}
+
+.schedule-table tr:nth-child(2n+1) {
+  background-color: #4b4d4f;
+}
+
+.schedule-table th:first-child,
+.schedule-table td:first-child {
+  width: 220px;
+  text-align: center;
+}
+
+.schedule-table th:nth-child(2),
+.schedule-table td:nth-child(2) {
+  padding-left: 80px;
+  text-align: left;
 }
