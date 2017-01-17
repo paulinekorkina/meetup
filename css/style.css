@@ -254,7 +254,7 @@ h3 {
 .details {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 97px;
+  margin-bottom: 98px;
 }
 
 .details-item {
@@ -294,27 +294,26 @@ h3 {
 }
 
 .schedule {
+  margin-bottom: 160px;
   padding-left: 5px;
 }
 
 .schedule-table {
   width: 100%;
+  margin-bottom: 38px;
   font-weight: 400;
   font-size: 22px;
   color: #ffffff;
   border-collapse: collapse;
-  border-radius: 15px; /*не скругляются углы, т.к. ячейки имеют углы обычные*/
+  border-radius: 15px;
+  overflow: hidden;
 }
 
 .schedule-table th {
-  padding: 22px 0 21px 0;
+  padding: 21px 0 20px 0;
   font-weight: 900;
   font-size: 30px;
   background-color: #a3cc40;
-}
-
-.schedule-table td {
-  padding: 25px 0 25px 0;
 }
 
 .schedule-table tr:nth-child(2n) {
@@ -325,14 +324,84 @@ h3 {
   background-color: #4b4d4f;
 }
 
-.schedule-table th:first-child,
-.schedule-table td:first-child {
+.schedule-time {
   width: 220px;
   text-align: center;
 }
 
-.schedule-table th:nth-child(2),
-.schedule-table td:nth-child(2) {
+.schedule-table .schedule-stuff {
   padding-left: 80px;
   text-align: left;
+}
+
+.schedule p {
+  width: 830px;
+  margin: 0 auto;
+  font-weight: 300;
+  text-align: center;
+}
+
+.schedule-more {
+  width: 33px;
+  height: 33px;
+  padding: 23px 51px 19px 0;
+  background-image: url("../img/more-icon.png");
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+
+.rewards {
+  position: relative;
+  margin-left: -165px;
+  margin-right: -165px;
+  padding: 127px 165px 183px 165px;
+  text-align: right;
+  color: #ffffff;
+  background-color: #4b4d4f;
+}
+
+.rewards h2 {
+  margin-bottom: 24px;
+}
+
+.rewards p {
+  margin-left: 360px;
+  margin-bottom: 20px;
+  padding-right: 3px;
+  font-weight: 300;
+}
+
+.rewards p:last-of-type {
+  margin-bottom: 55px;
+}
+
+.rewards-btn {
+  padding: 17px 23px 17px 29px;
+  font-weight: 400;
+  font-size: 18px;
+  color: #ffffff;
+  text-decoration: none;
+  background-color: #90d23d;
+  border-radius: 15px;
+}
+
+.rewards::before {
+  content: "";
+  position: absolute;
+  top: -70px;
+  left: 0;
+  width: 100%;
+  height: 130px;
+  background-color: #ffffff;
+  transform: skewY(-5deg);
+}
+
+.rewards::after {
+  content: "";
+  position: absolute;
+  top: -75px;
+  left: 165px;
+  width: 354px;
+  height: 357px;
+  background-image: url("../img/elite-badge.png");
 }
