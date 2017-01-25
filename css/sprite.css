@@ -1,0 +1,89 @@
+.sprite {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-1-facebook {
+    width: 45px;
+    height: 45px;
+    background-position: -5px -5px;
+}
+
+.sprite-2-twitter {
+    width: 45px;
+    height: 45px;
+    background-position: -5px -60px;
+}
+
+.sprite-3-linkedin {
+    width: 46px;
+    height: 46px;
+    background-position: -5px -115px;
+}
+
+.sprite-4-googleplus {
+    width: 45px;
+    height: 46px;
+    background-position: -5px -171px;
+}
+
+.sprite-5-tumblr {
+    width: 45px;
+    height: 45px;
+    background-position: -5px -227px;
+}
+
+.sprite-more-icon {
+    width: 33px;
+    height: 33px;
+    background-position: -5px -282px;
+}
+
+.sprite-sponsor-behance {
+    width: 34px;
+    height: 33px;
+    background-position: -5px -325px;
+}
+
+.sprite-sponsor-dribbble- {
+    width: 33px;
+    height: 33px;
+    background-position: -5px -368px;
+}
+
+.sprite-sponsor-facebook {
+    width: 33px;
+    height: 33px;
+    background-position: -5px -411px;
+}
+
+.sprite-sponsor-twitter {
+    width: 33px;
+    height: 33px;
+    background-position: -5px -454px;
+}
+
+.sprite-sponsor1 {
+    width: 178px;
+    height: 69px;
+    background-position: -5px -497px;
+}
+
+.sprite-sponsor2 {
+    width: 95px;
+    height: 75px;
+    background-position: -5px -576px;
+}
+
+.sprite-up-btn {
+    width: 31px;
+    height: 19px;
+    background-position: -5px -661px;
+}
+
+.sprite-zsponsor3 {
+    width: 153px;
+    height: 28px;
+    background-position: -5px -690px;
+}
