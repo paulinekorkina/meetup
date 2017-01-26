@@ -523,7 +523,7 @@ h3 {
 
 .sponsors {
   position: relative;
-  margin: 0 -165px;
+  margin: 0 -165px 103px -165px;
   padding: 117px 335px 130px 335px;
   color: #ffffff;
   background-color: #4b4d4f;
@@ -614,3 +614,109 @@ h3 {
   background-color: #90d23d;
   border-radius: 15px;
 }
+
+.past-events {
+
+}
+
+.past-events h2 {
+  margin-bottom: 25px;
+  padding-left: 32px;
+}
+
+.past-events p {
+  width: 600px;
+  margin-bottom: 103px;
+  padding-left: 33px;
+  font-weight: 300;
+}
+
+.past-photo {
+  margin: 0 -67px 97px -67px;
+  font-size: 0;
+}
+
+.past-photo-item-1 {
+  width: 600px;
+  height: 416px;
+  background-color: #3d6ed2;
+  background-image: url("../img/past-event1.jpg");
+  background-repeat: no-repeat;
+}
+
+.past-photo-item-2 {
+  width: 570px;
+  height: 416px;
+  background-color: #90d23d;
+  background-image: url("../img/past-event2.jpg");
+  background-repeat: no-repeat;
+}
+
+.past-photo-item-3 {
+  width: 500px;
+  height: 368px;
+  background-color: #ff9d00;
+  background-image: url("../img/past-event3.jpg");
+  background-repeat: no-repeat;
+}
+
+.past-photo-item-4 {
+  width: 670px;
+  height: 368px;
+  background-color: #e0652a;
+  background-image: url("../img/past-event4.jpg");
+  background-repeat: no-repeat;
+}
+
+.past-event-btn {
+  display: block;
+  width: 200px;
+  margin: 0 auto 93px auto;
+  padding: 15px 0;
+  text-align: center;
+  font-weight: 400;
+  font-size: 22px;
+  color: #ffffff;
+  text-decoration: none;
+  background-color: #373737;
+  border-radius: 15px;
+}
+
+.contacts {
+  position: relative;
+  width: 1366px;
+  height: 660px;
+  margin: 0 -165px;
+}
+
+.map {
+  width: 1366px;
+  height: 660px;
+
+  background-color: #e8ddbb;
+  background-image: url("../img/map.jpg");
+}
+
+.address-wrap-hidden {
+  display: none;
+}
+
+.address-wrap {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  width: 1366px;
+  height: 609px;
+  padding-top: 51px;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.address-feedback {
+  width: 970px;
+  height: 530px;
+  margin: 0 auto;
+  background-color: #ffffff;
+}
+
+
