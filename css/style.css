@@ -707,16 +707,126 @@ h3 {
   left: 0;
   z-index: 2;
   width: 1366px;
-  height: 609px;
-  padding-top: 51px;
+  height: 596px;
+  padding-top: 64px;
   background-color: rgba(0, 0, 0, 0.7);
 }
 
 .address-feedback {
-  width: 970px;
-  height: 530px;
+  width: 830px; /*970 - 2*70*/
+  height: 420px; /*530 - 58 - 52*/
   margin: 0 auto;
+  padding: 58px 70px 52px 70px;
   background-color: #ffffff;
 }
 
+.address {
+  float: left;
+  width: 270px;
+  padding: 39px 30px 0 30px;
+}
 
+.address-logo {
+  width: 132px;
+  height: 140px;
+  margin: 0 auto 44px auto;
+  background-image: url(../img/contacts-logo.png);
+}
+
+.address p {
+  margin-bottom: 29px;
+  font-weight: 300;
+  font-size: 18px;
+  text-align: center;
+}
+
+.view-map-btn {
+  display: block;
+  width: 200px;
+  margin: 0 auto;
+  padding: 15px 0;
+  font-weight: 400;
+  font-size: 22px;
+  color: #ffffff;
+  text-align: center;
+  text-decoration: none;
+  background-color: #90d23d;
+  border-radius: 15px;
+}
+
+.feedback {
+  float: right;
+  width: 400px;
+}
+
+.feedback input {
+  width: 100%;
+  height: 54px;
+  margin-bottom: 28px;
+  padding-left: 20px;
+  box-sizing: border-box;
+  font-weight: 300;
+  font-size: 19px;
+  font-family: "Roboto", "Arial", sans-serif;
+  border: 1px solid #bebebe;
+  border-radius: 5px;
+}
+
+.feedback input:focus {
+  outline: none;
+  border-color: #90d23d;
+}
+
+.feedback textarea {
+  width: 100%;
+  height: 252px;
+  margin-bottom: 23px;
+  padding-top: 15px;
+  padding-left: 20px;
+  box-sizing: border-box;
+  font-weight: 300;
+  font-size: 19px;
+  font-family: "Roboto", "Arial", sans-serif;
+
+  border-radius: 5px;
+}
+
+.feedback textarea:focus,
+.feedback input:focus {
+  outline: none;
+  border-color: #90d23d;
+}
+
+.feedback-btn {
+  width: 100%;
+  padding: 16px 0 18px 0;
+  box-sizing: border-box;
+  font-weight: 400;
+  font-size: 22px;
+  font-family: "Roboto", "Arial", sans-serif;
+  color: #ffffff;
+  text-align: center;
+  text-decoration: none;
+  background-color: #373737;
+  border-radius: 5px;
+  border: none;
+}
+
+.main-footer {
+  margin-bottom: 0;
+  padding: 60px 0 40px 0;
+  color: #ffffff;
+  background-color: #90d23d;
+}
+
+.up-btn {
+  position: fixed;
+  right: 165px;
+  bottom: 100px;
+  z-index: 999;
+  width: 31px;
+  height: 19px;
+  background-image: url(../img/sprite.png);
+  background-repeat: no-repeat;
+  background-position: -5px -661px;
+}
