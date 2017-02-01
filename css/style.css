@@ -819,6 +819,49 @@ h3 {
   background-color: #90d23d;
 }
 
+.social {
+  margin-bottom: 32px;
+  font-size: 0;
+  text-align: center;
+}
+
+.social-icon {
+  display: inline-block;
+  width: 47px;
+  height: 47px;
+  margin-right: 13px;
+  vertical-align: top;
+  background-image: url("../img/sprite.png");
+  background-repeat: no-repeat;
+  background-position: -5px -728px;
+}
+
+.twitter-icon {
+  background-position: -5px -785px;
+}
+
+.linkedin-icon {
+  background-position: -5px -842px;
+}
+
+.gplus-icon {
+  background-position: -5px -900px;
+}
+
+.tumblr-icon {
+  background-position: -5px -958px;
+}
+
+.footer-paragraph {
+  text-align: center;
+}
+
+.footer-span {
+  display: block;
+  font-weight: 300;
+  font-size: 18px;
+}
+
 .up-btn {
   position: fixed;
   right: 165px;
