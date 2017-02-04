@@ -734,7 +734,7 @@ h3 {
   position: absolute;
   top: 0;
   left: 0;
-  z-index: 2;
+  z-index: 3;
   width: 1366px;
   height: 596px;
   padding-top: 64px;
@@ -815,7 +815,6 @@ h3 {
   font-weight: 300;
   font-size: 19px;
   font-family: "Roboto", "Arial", sans-serif;
-
   border-radius: 5px;
 }
 
@@ -837,6 +836,26 @@ h3 {
 
 .feedback-btn:hover,
 .feedback-btn:active {
+  background-color: #5d5d5d;
+}
+
+.btn-show {
+  position: absolute;
+  bottom: 70px;
+  right: 20%;
+  z-index: 2;
+  display: block;
+  width: 200px;
+  padding: 16px 0 18px 0;
+  box-sizing: border-box;
+  text-align: center;
+  background-color: #373737;
+  border-radius: 5px;
+  border: none;
+}
+
+.btn-show:hover,
+.btn-show:active {
   background-color: #5d5d5d;
 }
 
