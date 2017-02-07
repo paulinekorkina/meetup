@@ -915,15 +915,25 @@ h3 {
   font-size: 18px;
 }
 
-.up-btn {
+#updown {
   position: fixed;
   right: 165px;
   bottom: 100px;
   z-index: 999;
   width: 31px;
   height: 19px;
+  cursor: pointer;
+}
+
+#updown.up {
   background-image: url(../img/sprite.png);
   background-repeat: no-repeat;
   background-position: -5px -661px;
-  cursor: pointer;
+}
+
+#updown.down {
+  background-image: url(../img/sprite.png);
+  background-repeat: no-repeat;
+  background-position: -5px -661px;
+  transform: rotate(180deg);
 }
