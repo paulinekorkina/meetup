@@ -118,23 +118,31 @@ h3 {
 }
 
 .timer {
-  display: flex;
-  justify-content: space-between;
+  /*display: flex;
+  justify-content: space-between;*/
   width: 823px;
   margin: 0 auto;
   padding: 8px 70px 21px 75px;
+  font-size: 0;
   border: 2px solid #90d23d;
   border-radius: 20px;
 }
 
 .timer p {
   display: inline-block;
-  margin: 0;
+  width: 142px;
+  margin: 0 85px 0 0;
   padding: 0;
   vertical-align: top;
+  text-align: left;
+}
+
+.timer p:last-child {
+  margin-right: 0;
 }
 
 .timer span {
+  position: relative;
   display: block;
   text-align: center;
   font-family: "Roboto Slab", "Times", serif;
@@ -152,6 +160,15 @@ h3 {
   font-size: 25px;
   line-height: 25px;
   text-transform: uppercase;
+}
+
+.result-day::after,
+.result-hour::after,
+.result-minute::after {
+  content: ":";
+  position: absolute;
+  top: 0;
+  right: -55px;
 }
 
 .header-icons {
